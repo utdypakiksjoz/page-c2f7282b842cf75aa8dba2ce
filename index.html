@@ -1,0 +1,401 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>微橙云 - 带宽与流量服务</title><meta name="description" content="微橙云提供基础版、旗舰版、团队版等带宽与流量套餐，满足不同场景的网络连接需求。"><meta name="keywords" content="微橙云,带宽服务,流量套餐,专线加速,网络连接"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-f7ecc0d367.snbww.cn/"><meta property="og:type" content="website"><meta property="og:title" content="微橙云 - 带宽与流量服务"><meta property="og:description" content="微橙云提供基础版、旗舰版、团队版等带宽与流量套餐，满足不同场景的网络连接需求。"><meta property="og:url" content="https://p-f7ecc0d367.snbww.cn/"><meta property="og:site_name" content="微橙云"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-f7ecc0d367.snbww.cn/", "name": "微橙云 - 带宽与流量服务", "description": "微橙云提供基础版、旗舰版、团队版等带宽与流量套餐，满足不同场景的网络连接需求。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="c2f7282b842cf75aa8dba2ce:09bd43ff5dfc0289bba790f509bd6a7642799ae27709e6d90f68d66fbf2ee520:f6e1ef6e04b9919ddf7f"></head><body id="top"><style>
+:root {--brown-dark: #2A1810;--brown-mid: #4A2C1A;--brown-light: #6B4226;--mint: #98E4C4;--mint-light: #C4F0DC;--cream: #F5EFE6;--cream-dark: #E8E0D0;--text-dark: #1A1008;--text-mint-on-dark: #A8E6CC}
+* {box-sizing: border-box;margin: 0;padding: 0}
+body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;background: var(--cream);color: var(--text-dark);line-height: 1.7;font-size: 16px}
+a {color: inherit;text-decoration: none}
+a:hover {text-decoration: underline}
+
+/* 面包屑导航 */
+.breadcrumb-nav {background: var(--brown-dark);color: var(--mint-light);padding: 14px 0;position: sticky;top: 0;z-index: 100;border-bottom: 2px solid var(--mint)}
+.breadcrumb-container {max-width: 1200px;margin: 0 auto;padding: 0 20px;display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;gap: 12px}
+.breadcrumb {display: flex;list-style: none;font-size: 14px;gap: 8px}
+.breadcrumb li::after {content: "›";margin-left: 8px;color: var(--brown-light)}
+.breadcrumb li:last-child::after {content: ""}
+.breadcrumb a {color: var(--mint)}
+.breadcrumb a:hover {color: var(--mint-light);text-decoration: none}
+
+.toc {display: flex;list-style: none;font-size: 13px;gap: 16px}
+.toc a {color: var(--mint-light)}
+.toc a:hover {color: var(--mint);text-decoration: none}
+
+/* 首屏：杂志式多栏网格 */
+.hero {background: var(--cream);padding: 60px 20px 80px;border-bottom: 1px solid var(--cream-dark)}
+.hero-grid {max-width: 1200px;margin: 0 auto;display: grid;grid-template-columns: 2fr 1fr 1fr;grid-template-rows: auto auto auto;gap: 30px}
+.hero-brand {grid-column: 1 / 4;grid-row: 1;display: flex;justify-content: space-between;align-items: baseline;border-bottom: 3px solid var(--brown-dark);padding-bottom: 20px}
+.hero-brand-name {font-size: 36px;font-weight: 900;color: var(--brown-dark);letter-spacing: -1px}
+.hero-brand-tag {font-size: 14px;color: var(--brown-mid);font-style: italic}
+.hero-headline {grid-column: 1 / 2;grid-row: 2;font-size: 28px;font-weight: 800;color: var(--brown-dark);line-height: 1.3}
+.hero-quote {grid-column: 2 / 4;grid-row: 2;border-left: 4px solid var(--mint);padding-left: 20px;font-size: 15px;color: var(--brown-mid);font-style: italic}
+.hero-body {grid-column: 1 / 2;grid-row: 3;font-size: 15px;color: var(--brown-mid)}
+.hero-body p {margin-bottom: 12px}
+.hero-sidebar {grid-column: 2 / 3;grid-row: 3;background: var(--brown-dark);color: var(--mint-light);padding: 20px}
+.hero-sidebar h3 {font-size: 14px;color: var(--mint);margin-bottom: 12px;text-transform: uppercase;letter-spacing: 1px}
+.hero-sidebar ul {list-style: none;font-size: 14px}
+.hero-sidebar li {padding: 6px 0;border-bottom: 1px solid var(--brown-mid)}
+.hero-sidebar li:last-child {border-bottom: none}
+.hero-meta {grid-column: 3 / 4;grid-row: 3;font-size: 13px;color: var(--brown-light)}
+.hero-meta-item {margin-bottom: 16px}
+.hero-meta-label {display: block;font-weight: 700;color: var(--brown-dark);margin-bottom: 4px}
+
+/* 通用区块 */
+section {padding: 60px 20px}
+.section-inner {max-width: 1200px;margin: 0 auto}
+.section-title {font-size: 32px;font-weight: 900;color: var(--brown-dark);margin-bottom: 40px;border-bottom: 2px solid var(--mint);padding-bottom: 16px}
+.section-intro {font-size: 16px;color: var(--brown-mid);margin-bottom: 40px;max-width: 700px}
+
+/* 卡片：编号大字压底 */
+.cards-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 24px}
+.card {background: white;border-radius: 12px;overflow: hidden;position: relative;min-height: 220px;padding: 24px;border: 1px solid var(--cream-dark)}
+.card-number {position: absolute;bottom: -20px;right: 10px;font-size: 140px;font-weight: 900;color: var(--cream-dark);line-height: 1;z-index: 0;pointer-events: none}
+.card-content {position: relative;z-index: 1}
+.card h3 {font-size: 20px;color: var(--brown-dark);margin-bottom: 12px}
+.card p {font-size: 14px;color: var(--brown-mid)}
+
+/* 套餐：单列大卡依次堆叠 */
+.plans {background: var(--cream-dark)}
+.plans-list {display: flex;flex-direction: column;gap: 24px}
+.plan-card {background: white;border-radius: 16px;padding: 36px;border: 1px solid var(--cream-dark);display: grid;grid-template-columns: 1fr 2fr;gap: 30px;align-items: start}
+.plan-card.featured {border: 2px solid var(--mint);background: linear-gradient(to right, white, var(--mint-light));position: relative}
+.plan-card.featured::before {content: "推荐选择";position: absolute;top: -12px;left: 30px;background: var(--mint);color: var(--brown-dark);padding: 4px 12px;border-radius: 4px;font-size: 13px;font-weight: 700}
+.plan-header {border-right: 1px solid var(--cream-dark);padding-right: 20px}
+.plan-name {font-size: 24px;font-weight: 800;color: var(--brown-dark);margin-bottom: 8px}
+.plan-price {font-size: 32px;font-weight: 900;color: var(--brown-mid);margin-bottom: 4px}
+.plan-annual {font-size: 14px;color: var(--brown-light);background: var(--cream);padding: 6px 12px;border-radius: 6px;display: inline-block}
+.plan-features {list-style: none}
+.plan-features li {padding: 8px 0;font-size: 15px;color: var(--brown-mid);border-bottom: 1px dashed var(--cream-dark);padding-left: 24px;position: relative}
+.plan-features li::before {content: "✓";position: absolute;left: 0;color: var(--mint);font-weight: 700}
+.plan-features li:last-child {border-bottom: none}
+
+/* 使用说明 */
+.usage-steps {display: flex;flex-direction: column;gap: 20px}
+.usage-step {background: white;padding: 24px;border-left: 4px solid var(--mint);border-radius: 0 8px 8px 0}
+.usage-step h3 {font-size: 18px;color: var(--brown-dark);margin-bottom: 8px}
+.usage-step p {font-size: 15px;color: var(--brown-mid)}
+
+/* FAQ: details 折叠 */
+.faq {background: var(--brown-dark);color: var(--cream)}
+.faq .section-title {color: var(--mint);border-bottom-color: var(--brown-light)}
+.faq .section-intro {color: var(--mint-light)}
+.faq-list {display: flex;flex-direction: column;gap: 12px}
+.faq-item {background: var(--brown-mid);border-radius: 8px;overflow: hidden}
+.faq-item summary {padding: 18px 24px;font-size: 16px;font-weight: 600;color: var(--mint);cursor: pointer;list-style: none;display: flex;justify-content: space-between;align-items: center}
+.faq-item summary::-webkit-details-marker {display: none}
+.faq-item summary::after {content: "+";font-size: 24px;color: var(--mint)}
+.faq-item[open] summary::after {content: "−"}
+.faq-answer {padding: 0 24px 18px;font-size: 15px;color: var(--cream);line-height: 1.8}
+
+/* 客户端 */
+.clients {background: var(--cream)}
+.clients-content {font-size: 15px;color: var(--brown-mid);max-width: 700px}
+.clients-content p {margin-bottom: 16px}
+
+/* 页脚 */
+footer {background: var(--brown-dark);color: var(--mint-light);padding: 40px 20px;text-align: center;font-size: 14px}
+.footer-inner {max-width: 1200px;margin: 0 auto}
+.footer-links {margin-bottom: 16px}
+.footer-links a {color: var(--mint);margin: 0 12px}
+.footer-links a:hover {color: var(--mint-light)}
+
+/* 响应式 */
+@media (max-width: 768px) {.hero-grid {
+    grid-template-columns: 1fr;}
+  .hero-brand {
+    grid-column: 1;flex-direction: column;align-items: flex-start;gap: 8px;}
+  .hero-headline,
+  .hero-quote,
+  .hero-body,
+  .hero-sidebar,
+  .hero-meta {
+    grid-column: 1;grid-row: auto;}
+  .hero-headline { font-size: 22px;}
+  .plan-card {
+    grid-template-columns: 1fr;}
+  .plan-header {
+    border-right: none;border-bottom: 1px solid var(--cream-dark);padding-right: 0;padding-bottom: 20px;}
+  .toc { display: none;}
+  .breadcrumb-container { flex-direction: column;align-items: flex-start;}
+  .section-title { font-size: 24px;}
+  .card-number { font-size: 100px;}}
+</style><nav class="breadcrumb-nav" aria-label="主导航">
+  <div class="breadcrumb-container">
+    <ol class="breadcrumb">
+      <li><a href="#">首页</a></li>
+      <li><a href="#">服务目录</a></li>
+      <li>微橙云</li>
+    </ol>
+    <ul class="toc">
+      <li><a href="#about">关于</a></li>
+      <li><a href="#features">特点</a></li>
+      <li><a href="#plans">套餐</a></li>
+      <li><a href="#usage">使用</a></li>
+      <li><a href="#faq">问答</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+<section class="hero" id="top">
+  <div class="hero-grid">
+    <div class="hero-brand">
+      <span class="hero-brand-name">微橙云</span>
+      <span class="hero-brand-tag">带宽与流量服务 · 第 03 期</span>
+    </div>
+    <h1 class="hero-headline">微橙云：为不同网络场景提供分层流量与带宽方案</h1>
+    <blockquote class="hero-quote">
+      "我们做的一件事，是把流量、设备和节点拆成清晰的三个维度，让套餐选择不再靠猜。从个人月度使用到团队级路由定制，微橙云希望每一份带宽都花在刀刃上。"
+    </blockquote>
+    <div class="hero-body">
+      <p>微橙云是一个带宽与流量服务品牌。核心产品是三档分层套餐：基础版、旗舰版、团队版，分别对应日常使用、高带宽需求和多人协作场景。</p>
+      <p>套餐之间的区别不仅是流量多少，还包括设备并发数、节点池等级、流媒体解锁范围以及售后支持的响应层级。下面这份指南会带你逐一了解。</p>
+    </div>
+    <aside class="hero-sidebar">
+      <h3>本期目录</h3>
+      <ul>
+        <li>01 — 品牌定位</li>
+        <li>02 — 服务特点</li>
+        <li>03 — 套餐对比</li>
+        <li>04 — 使用步骤</li>
+        <li>05 — 常见问题</li>
+      </ul>
+    </aside>
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <span class="hero-meta-label">套餐数量</span>
+        3 档分层方案
+      </div>
+      <div class="hero-meta-item">
+        <span class="hero-meta-label">设备范围</span>
+        3 至 20 台并发
+      </div>
+      <div class="hero-meta-item">
+        <span class="hero-meta-label">计费方式</span>
+        月付 / 年付
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-inner">
+    <h2 class="section-title">微橙云是什么？</h2>
+    <p class="section-intro">
+      问：微橙云主要解决什么问题？<br>
+      答：把不同用户的带宽需求拆成可比较的套餐，而不是一个笼统的"高速服务"。
+    </p>
+    <div class="cards-grid">
+      <article class="card">
+        <div class="card-number">01</div>
+        <div class="card-content">
+          <h3>流量分层</h3>
+          <p>从每月 100GB 到 1000GB，三档套餐覆盖从轻度浏览到重度下载的不同用量。流量用尽前会有提醒，不会突然中断。</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-number">02</div>
+        <div class="card-content">
+          <h3>设备并发</h3>
+          <p>基础版支持 3 台设备同时在线，旗舰版 5 台，团队版 20 台。适合手机、平板、电脑多端同步使用的场景。</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-number">03</div>
+        <div class="card-content">
+          <h3>节点差异</h3>
+          <p>不同套餐接入不同的节点池。旗舰版及以上包含 IPLC 专线优化，团队版提供 VIP 高带宽节点和企业定制路由。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="section-inner">
+    <h2 class="section-title">服务特点</h2>
+    <p class="section-intro">
+      问：微橙云和同类服务有什么不同？<br>
+      答：我们把"你能用什么"写清楚，而不是只强调"快"。
+    </p>
+    <div class="cards-grid">
+      <article class="card">
+        <div class="card-number">04</div>
+        <div class="card-content">
+          <h3>流媒体解锁范围明确</h3>
+          <p>基础版解锁基础流媒体库，旗舰版及以上提供全节点原生流媒体解锁。具体平台可用性以实际节点为准，不做笼统承诺。</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-number">05</div>
+        <div class="card-content">
+          <h3>售后分级响应</h3>
+          <p>基础版使用普通工单队列，旗舰版享受 7x24 优先工单支持，团队版配备专属客户经理。问题不会石沉大海。</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-number">06</div>
+        <div class="card-content">
+          <h3>年付折扣透明</h3>
+          <p>三档套餐均支持年付，价格为月付的 10 倍左右，相当于免两个月费用。没有隐藏折扣码，所见即所得。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="plans" class="plans">
+  <div class="section-inner">
+    <h2 class="section-title">套餐方案</h2>
+    <p class="section-intro">
+      问：三档套餐怎么选？<br>
+      答：看你的设备数量和流量习惯。下面是从基础到团队的完整对比。
+    </p>
+    <div class="plans-list">
+      <article class="plan-card">
+        <div class="plan-header">
+          <div class="plan-name">基础版</div>
+          <div class="plan-price">¥15<span>/月</span></div>
+          <div class="plan-annual">按年付仅需 ¥150/年</div>
+        </div>
+        <ul class="plan-features">
+          <li>每月 100GB 极速流量</li>
+          <li>支持 3 台设备同时在线</li>
+          <li>解锁基础流媒体</li>
+          <li>普通线路节点池</li>
+        </ul>
+      </article>
+      <article class="plan-card featured">
+        <div class="plan-header">
+          <div class="plan-name">旗舰版</div>
+          <div class="plan-price">¥35<span>/月</span></div>
+          <div class="plan-annual">按年付仅需 ¥350/年</div>
+        </div>
+        <ul class="plan-features">
+          <li>每月 300GB 极速流量</li>
+          <li>支持 5 台设备同时在线</li>
+          <li>全节点原生流媒体解锁</li>
+          <li>IPLC 专线游戏加速优化</li>
+          <li>7x24 优先工单支持</li>
+        </ul>
+      </article>
+      <article class="plan-card">
+        <div class="plan-header">
+          <div class="plan-name">团队版</div>
+          <div class="plan-price">¥85<span>/月</span></div>
+          <div class="plan-annual">按年付仅需 ¥850/年</div>
+        </div>
+        <ul class="plan-features">
+          <li>每月 1000GB 极速流量</li>
+          <li>支持 20 台设备同时在线</li>
+          <li>VIP 专属高带宽节点</li>
+          <li>支持企业定制路由</li>
+          <li>专属客户经理服务</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="usage">
+  <div class="section-inner">
+    <h2 class="section-title">使用说明</h2>
+    <p class="section-intro">
+      问：开通后怎么开始用？<br>
+      答：四步，从选择套餐到连接节点。
+    </p>
+    <div class="usage-steps">
+      <div class="usage-step">
+        <h3>第一步：选择套餐并订阅</h3>
+        <p>根据你的设备数量和月度流量习惯，从基础版、旗舰版、团队版中选择一档。完成订阅后，账户会开通对应权限。</p>
+      </div>
+      <div class="usage-step">
+        <h3>第二步：获取连接信息</h3>
+        <p>登录账户后台，查看你的专属节点列表和连接配置。不同套餐的节点池不同，请以后台显示的可用节点为准。</p>
+      </div>
+      <div class="usage-step">
+        <h3>第三步：配置客户端</h3>
+        <p>将连接信息导入你使用的客户端软件。具体支持哪些客户端请参考下方客户端说明，配置方式以客户端官方文档为准。</p>
+      </div>
+      <div class="usage-step">
+        <h3>第四步：连接并使用</h3>
+        <p>选择一个节点连接，开始使用。流量消耗可在后台实时查看，接近额度时会收到提醒。遇到问题可提交工单。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clients" class="clients">
+  <div class="section-inner">
+    <h2 class="section-title">客户端支持</h2>
+    <p class="section-intro">
+      问：微橙云有专属客户端吗？<br>
+      答：目前不提供独立客户端应用程序下载。
+    </p>
+    <div class="clients-content">
+      <p>微橙云未提供专属的客户端应用程序下载渠道。用户需使用第三方通用客户端软件配置连接信息。</p>
+      <p>具体适配哪些客户端软件、系统版本兼容性以及配置教程，请通过工单或客服渠道咨询。我们不在此列举未经确认的软件名称或下载地址。</p>
+      <p>如果你使用的客户端遇到连接问题，请在工单中注明客户端名称和系统版本，售后会据此提供排查建议。</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq">
+  <div class="section-inner">
+    <h2 class="section-title">常见问题</h2>
+    <p class="section-intro">
+      问：还有疑问怎么办？<br>
+      答：先看这里，没找到答案再提交工单。
+    </p>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>套餐流量用完后会怎样？</summary>
+        <div class="faq-answer">
+          流量用尽前系统会发送提醒。用完后连接会暂停，你可以等待下月重置或升级套餐。不会产生超额费用。
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>可以随时更换套餐吗？</summary>
+        <div class="faq-answer">
+          可以。升级套餐立即生效，补差价按剩余天数计算。降级套餐在下个计费周期生效，当前周期保持原套餐不变。
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>团队版的企业定制路由是什么意思？</summary>
+        <div class="faq-answer">
+          团版支持根据企业用户的实际需求调整路由策略，例如指定出口地区、固定 IP 等。具体定制能力需与客户经理沟通确认，不是所有路由需求都能实现。
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>年付和月付的服务内容有区别吗？</summary>
+        <div class="faq-answer">
+          没有区别。年付只是计费方式，套餐内的流量、设备数、节点权限完全一致。年付价格为月付的 10 倍左右。
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>支持哪些支付方式？</summary>
+        <div class="faq-answer">
+          具体支付方式以订阅页面显示为准。一般支持主流在线支付渠道。如果有特定支付需求，可以先提交工单确认。
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>不同套餐的节点池具体有什么区别？</summary>
+        <div class="faq-answer">
+          基础版使用普通线路节点池，满足日常使用。旗舰版及以上包含 IPLC 专线优化，适合对延迟有要求的场景。团队版提供 VIP 高带宽节点，带宽上限更高。具体节点数量和地区以后台实时显示为准。
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="#top">返回顶部</a>
+      <a href="#plans">查看套餐</a>
+      <a href="#faq">常见问题</a>
+    </div>
+    <p>微橙云 — 带宽与流量服务</p>
+    <p>本页面信息以品牌实际服务为准，套餐内容可能调整，请以订阅时确认为最终依据。</p>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
